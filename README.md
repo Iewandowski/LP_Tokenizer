@@ -29,15 +29,25 @@ a := (aux - 2) * 200 / 19
 O analisador léxico deve produzir as seguintes triplas:
 
 ('a', IDENT, 1)
+
 (':=', ASSIGN_OP, 12)
+
 ('(', LPAREN, 3)
+
 ('aux', IDENT, 1)
+
 ('-', SUB_OP, 6)
+
 ('2', INT_LIT, 2)
+
 (')', RPAREN, 4)
+
 ('*', MUL_OP, 7)
+
 ('200', INT_LIT, 2)
+
 ('/', DIV_OP, 13)
+
 ('19', INT_LIT, 2)
 
 Estratégia para a análise léxica:
