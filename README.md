@@ -8,8 +8,6 @@ O professor vai analisar se o Lexer funciona, ou seja, produz a tabela de lexema
 
 Linguagem de programação de livre escolha e entrega pelo moodle. Entregar os códigos-fontes. 
 
-*** Trabalhos copiados serão anulados ***
-
 A linguagem de aritmética tem os seguintes tokens e códigos:
 
 Token	id	Comentário
