@@ -2,12 +2,6 @@
 
 A atividade consiste um projetar e construir um lexer/tokenizer simples para os tipos de tokens da gramática de aritmética básica. 
 
-Esta atividade vale 3 pontos da nota do Trabalho E1. Pode ser feita em grupos de até 4 alunos.
-
-O professor vai analisar se o Lexer funciona, ou seja, produz a tabela de lexemas e tokens, e também a implementação utilizada.
-
-Linguagem de programação de livre escolha e entrega pelo moodle. Entregar os códigos-fontes. 
-
 A linguagem de aritmética tem os seguintes tokens e códigos:
 
 Token	id	Comentário
@@ -35,6 +29,7 @@ a := (aux - 2) * 200 / 19
 O analisador léxico deve produzir as seguintes triplas:
 
 ('a', IDENT, 1)
+
 (':=', ASSIGN_OP, 12)
 ('(', LPAREN, 3)
 ('aux', IDENT, 1)
