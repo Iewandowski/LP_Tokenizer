@@ -28,7 +28,7 @@ A análise léxica consiste em estabelecer triplas do tipo (lexema, token, token
 a := (aux - 2) * 200 / 19
 O analisador léxico deve produzir as seguintes triplas:
 
->"('a', IDENT, 1)
+('a', IDENT, 1)
 
 (':=', ASSIGN_OP, 12)
 
@@ -48,7 +48,7 @@ O analisador léxico deve produzir as seguintes triplas:
 
 ('/', DIV_OP, 13)
 
-('19', INT_LIT, 2)"
+('19', INT_LIT, 2)
 
 Estratégia para a análise léxica:
 A análise léxica extrai um caractere de cada vez da entrada.
