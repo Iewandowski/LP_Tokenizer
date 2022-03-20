@@ -29,7 +29,6 @@ a := (aux - 2) * 200 / 19
 O analisador léxico deve produzir as seguintes triplas:
 
 ('a', IDENT, 1)
-
 (':=', ASSIGN_OP, 12)
 ('(', LPAREN, 3)
 ('aux', IDENT, 1)
